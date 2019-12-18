@@ -56,7 +56,6 @@ header img
     width: 100%;
     height: 100%;
     
-    
 }
 
 .logo 
@@ -67,36 +66,64 @@ header img
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+
 
 .logo h3
 {
     top: 104%;
-    left: 27%;
+    left: 31%;
     position: absolute;
     font-size: 18pt;
     color: #3c73a4;
+    animation-duration:2s;
+    animation-name: h3Title; 
+    will-change: auto;
+}
+
+@keyframes h3Title 
+{
+   0% {opacity: 0%}
+   100% {opacity: 100%}
 }
 
 .logoFace
 {
     position: absolute;
-    width: 10%;
-    height: 56%;
+    width: 9%;
+    height: 53%;
     top: 50%;
     left: 30%;
+    animation-duration:2s;
+    animation-name: opacityLogo; 
+    will-change: auto;
 }
+
+@keyframes opacityLogo 
+{
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
 
 .logoTitle
 {
     width: 21%;
     position: relative;
     height: 20%;
-    top: 60px;
-    left: 1%;
+    top: 79px;
+    left: -1%;
+    animation-name: opacityLogoTitle;
+    animation-duration:1s;
+    will-change:auto;
 }
 
-
+@keyframes opacityLogoTitle
+{
+    0% {opacity:0%}
+    100% {opacity:100%}
+}
 
 .productPicture
 {   
@@ -104,8 +131,17 @@ header img
     margin-top: 11%;
     width: 50%;
     left: 26%;
+    animation-name: productOpacity;
+    animation-duration: 2.9s;
+    will-change: auto;
 }
 
+@keyframes productOpacity 
+{
+    0% {opacity:0%}
+    50% {opacity: 50}
+    100% {opacity: 100%}
+}
 
 /* 2nd */
 
@@ -188,3 +224,9 @@ header img
     font-family: 'Montserrat', sans-serif;
 }
 
+footer 
+{
+    width: 100%;
+    height: 200px;
+    background : black;
+}
