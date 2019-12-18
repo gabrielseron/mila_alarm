@@ -27,7 +27,9 @@ body
 {
     margin: 0;
     padding: 0; 
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 /* Homepage */
 
@@ -161,4 +163,5 @@ body
     top: 22%;
     left: 60%;
     font-size: 19pt;
+    font-family: 'Montserrat', sans-serif;
 }
