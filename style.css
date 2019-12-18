@@ -1,0 +1,399 @@
+.start-screen
+{
+    background-color: rgb(75, 75, 75);
+    opacity: 0.9;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1000;
+    display: block;
+    text-align: center;
+    font-family: "arwing";
+}
+
+@font-face 
+{
+    font-family: "arwing";
+    src: url("fonts/arwing.ttf") format("format");
+}
+
+.start-screen h1
+{
+   margin-top: 25%;
+}
+
+.start-screen .start-button
+{
+    width: 10%;
+    border: black;
+    border-style: solid;
+    border-width: medium;
+    position: absolute;
+    left: 45%;
+}
+
+.background .ground
+{
+   width: 99vw;
+   height: 55vh;
+   display: flex;
+   flex-direction: column;
+}
+
+.background .ground .movement-effect .dot-line-01
+{
+    transform: skew(-60deg);
+}
+
+.background .ground .movement-effect .dot-line-02
+{
+    transform: skew(-40deg);
+}
+
+.background .ground .movement-effect .dot-line-03
+{
+    transform: skew(40deg);
+}
+
+.background .ground .movement-effect .dot-line-04
+{
+    transform: skew(60deg);
+}
+
+.background .ground .movement-effect
+{
+    transform: scaleY(1);
+    width: 99vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.background .ground .movement-effect .dot-line-01
+{
+    animation-name: movement-animation-01;
+    animation-duration: 0.15s;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: paused;
+}
+
+@keyframes movement-animation-01
+{
+    40%  {transform: translateY(40px) skew(-60deg) translateX(-40px);}
+    60%  {transform: translateY(60px) skew(-60deg) translateX(-60px);}
+    80%  {transform: translateY(80px) skew(-60deg) translateX(-80px);}
+    100% {transform: translateY(100px) skew(-60deg) translateX(-100px);}
+}
+
+.background .ground .movement-effect .dot-line-02
+{
+    animation-name: movement-animation-02;
+    animation-duration: 0.15s;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: paused;
+}
+
+@keyframes movement-animation-02
+{
+    40%  {transform: translateY(40px) skew(-40deg) translateX(-40px);}
+    60%  {transform: translateY(60px) skew(-40deg) translateX(-60px);}
+    80%  {transform: translateY(80px) skew(-40deg) translateX(-80px);}
+    100% {transform: translateY(100px) skew(-40deg) translateX(-100px);}
+}
+
+.background .ground .movement-effect .dot-line-03
+{
+    animation-name: movement-animation-03;
+    animation-duration: 0.15s;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: paused;
+}
+
+@keyframes movement-animation-03
+{
+    40%  {transform: translateY(40px) skew(40deg) translateX(40px);}
+    60%  {transform: translateY(60px) skew(40deg) translateX(60px);}
+    80%  {transform: translateY(80px) skew(40deg) translateX(80px);}
+    100% {transform: translateY(100px) skew(40deg) translateX(100px);}
+}
+
+.background .ground .movement-effect .dot-line-04
+{
+    animation-name: movement-animation-04;
+    animation-duration: 0.15s;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: paused;
+}
+
+@keyframes movement-animation-04
+{
+    40%  {transform: translateY(40px) skew(60deg) translateX(40px);}
+    60%  {transform: translateY(60px) skew(60deg) translateX(60px);}
+    80%  {transform: translateY(80px) skew(60deg) translateX(80px);}
+    100% {transform: translateY(100px) skew(60deg) translateX(100px);}
+}
+
+
+.background .ground .layer-1
+{
+    width: 100%;
+    height: 4.74%;
+    background-color: #619096;
+}
+
+.background .ground .layer-2
+{
+    width: 100%;
+    height: 3.58%;
+    background-color: #4f8b71;
+}
+
+.background .ground .layer-3
+{
+    width: 100%;
+    height: 4.2%;
+    background-color: #478369;
+}
+
+.background .ground .layer-4
+{
+    width: 100%;
+    height: 6.39%;
+    background-color: #3b7a5f;
+}
+
+.background .ground .layer-5
+{
+    width: 100%;
+    height: 8.49%;
+    background-color: #357157;
+}
+
+.background .ground .layer-6
+{
+    width: 100%;
+    height: 10.94%;
+    background-color: #2d694f;
+}
+
+.background .ground .layer-7
+{
+    width: 100%;
+    height: 11.72%;
+    background-color: #266248;
+}
+
+.background .ground .layer-8
+{
+    width: 100%;
+    height: 13.55%;
+    background-color: #1e5a40;
+}
+
+.background .ground .layer-9
+{
+    width: 100%;
+    height: 14.73%;
+    background-color: #165238;
+}
+
+.background .ground .layer-10
+{
+    width: 100%;
+    height: 21.66%;
+    background-color: #0b4a2f;
+}
+
+.background .bg-pic
+{
+    transform: translateY(6px);
+    width: 99vw;
+}
+
+.arwing .left-horizontal-wing
+{
+    position: absolute;
+    left: 34.3%;
+    bottom: 59.3%;
+    display : inline-block;
+    border-left : 90px solid transparent;
+    border-bottom : 50px solid #5e7489;
+    border-right : 60px solid transparent;
+    transform: rotateX(70deg);
+    z-index: 10;
+}
+
+.arwing .left-vertical-wing
+{
+    position: absolute;
+    left: 41.4%;
+    bottom: 56%;
+    border-top : 112px solid transparent;
+    border-bottom : 38px solid transparent;
+    border-left : 50px solid #003985;
+    z-index: 0;
+}
+
+.arwing .right-horizontal-wing
+{
+    position: absolute;
+    right: 35.5%;
+    bottom: 59.3%;
+    display : inline-block;
+    border-right : 90px solid transparent;
+    border-bottom : 50px solid #5e7489;
+    border-left : 60px solid transparent;
+    transform: rotateX(70deg);
+    z-index: 10;
+}
+
+.arwing .right-vertical-wing
+{
+    position: absolute;
+    right: 42.5%;
+    bottom: 56%;
+    border-top : 112px solid transparent;
+    border-bottom : 38px solid transparent;
+    border-right : 50px solid #003985;
+    z-index: 0;
+}
+
+.arwing .front-part
+{
+    position: absolute;
+    left: 45%;
+    bottom: 52.5%;
+    display : inline-block;
+    border-right : 60px solid transparent;
+    border-top : 60px solid #556a7d;
+    border-left : 60px solid transparent;
+}
+
+.arwing .back-part .back-layer-1
+{
+    position: absolute;
+    bottom: 62%;
+    left: 45%;
+    display : inline-block;
+    border-right : 60px solid transparent;
+    border-bottom : 89px solid #6a7a93;
+    border-left : 60px solid transparent;
+}
+
+.arwing .back-part .back-layer-2
+{
+    position: absolute;
+    bottom: 62%;
+    left: 45%;
+    display : inline-block;
+    border-right : 60px solid transparent;
+    border-bottom : 39px solid #0a243d;
+    border-left : 60px solid transparent;
+}
+
+.arwing .back-part .back-layer-3
+{
+    position: absolute;
+    bottom: 62%;
+    left: 45%;
+    display : inline-block;
+    border-right : 60px solid transparent;
+    border-bottom : 19px solid #f6625e;
+    border-left : 60px solid transparent;
+
+    animation-name: color-change;
+    animation-duration: 0.15s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+
+}
+
+@keyframes color-change
+{
+    0%   {border-bottom : 19px solid #f6625e;}
+    100% {border-bottom : 19px solid #ffda89;}
+}
+
+@media (min-width:1367px) and (max-width: 1920px)
+{
+    .arwing .left-horizontal-wing
+    {
+        position: absolute;
+        left: 37.5%;
+        bottom: 60.1%;
+        display : inline-block;
+        border-left : 90px solid transparent;
+        border-bottom : 50px solid #5e7489;
+        border-right : 60px solid transparent;
+        transform: rotateX(70deg);
+        z-index: 10;
+    }
+    
+    .arwing .left-vertical-wing
+    {
+        position: absolute;
+        left: 42.4%;
+        bottom: 57.8%;
+        border-top : 112px solid transparent;
+        border-bottom : 38px solid transparent;
+        border-left : 50px solid #003985;
+        z-index: 0;
+    }
+    
+    .arwing .right-horizontal-wing
+    {
+        position: absolute;
+        right: 41%;
+        bottom: 60.1%;
+        display : inline-block;
+        border-right : 90px solid transparent;
+        border-bottom : 50px solid #5e7489;
+        border-left : 60px solid transparent;
+        transform: rotateX(70deg);
+        z-index: 10;
+    }
+    
+    .arwing .right-vertical-wing
+    {
+        position: absolute;
+        right: 46.1%;
+        bottom: 57.8%;
+        border-top : 112px solid transparent;
+        border-bottom : 38px solid transparent;
+        border-right : 50px solid #003985;
+        z-index: 0;
+    }
+    
+    .arwing .front-part
+    {
+        position: absolute;
+        left: 45%;
+        bottom: 55.5%;
+        display : inline-block;
+        border-right : 60px solid transparent;
+        border-top : 60px solid #556a7d;
+        border-left : 60px solid transparent;
+    }
+
+    .start-screen .start-button
+    {
+        width: 10%;
+        border: black;
+        border-style: solid;
+        border-width: medium;
+        position: absolute;
+        left: 44.5%;
+    }
+}
