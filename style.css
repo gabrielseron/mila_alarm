@@ -77,7 +77,7 @@ header img
     position: absolute;
     font-size: 18pt;
     color: #3c73a4;
-    animation-duration:2s;
+    animation-duration:4.8s;
     animation-name: h3Title; 
     will-change: auto;
 }
@@ -95,7 +95,7 @@ header img
     height: 53%;
     top: 50%;
     left: 30%;
-    animation-duration:2s;
+    animation-duration:4s;
     animation-name: opacityLogo; 
     will-change: auto;
 }
@@ -115,7 +115,7 @@ header img
     top: 79px;
     left: -1%;
     animation-name: opacityLogoTitle;
-    animation-duration:1s;
+    animation-duration:4s;
     will-change:auto;
 }
 
@@ -128,7 +128,7 @@ header img
 .productPicture
 {   
     position: relative;
-    margin-top: 11%;
+    margin-top: 4%;
     width: 50%;
     left: 26%;
     animation-name: productOpacity;
