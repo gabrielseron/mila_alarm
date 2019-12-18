@@ -130,11 +130,13 @@ body
 .fourthPage
 {
     background: #EFEFEF;
+    position: relative;
 }
 
 .fourthPage h1,p 
 {
     text-align: center;
+    
 }
 
 .sell
@@ -143,11 +145,20 @@ body
     justify-content: center;
 }
 
-
 .sellMila
 {
-    width: 38%;
+    width: 42%;
     height: 20%;
-    margin: 9%;
+    margin: 5%;
+    padding-right: 40%;
 }
 
+.sellText
+{
+    text-align: center;
+    width: 25%;
+    position: absolute;
+    top: 22%;
+    left: 60%;
+    font-size: 19pt;
+}
