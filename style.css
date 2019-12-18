@@ -120,13 +120,34 @@ body
 
 
 /* 3rd */
-
-
+.thirdPage
+{
+    background: white;
+}
 
 /* 4th */ 
 
-.fourthpage
+.fourthPage
 {
     background: #EFEFEF;
+}
+
+.fourthPage h1,p 
+{
+    text-align: center;
+}
+
+.sell
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.sellMila
+{
+    width: 38%;
+    height: 20%;
+    margin: 9%;
 }
 
