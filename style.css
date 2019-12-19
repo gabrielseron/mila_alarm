@@ -292,20 +292,31 @@ header h1
 
 .preorder-div
 {
-    background: red;
-    height: 100px;
-    width: 50%;
-    margin-left: 10%;
+    height: 70px;
+    width: 31%;
+    margin-left: 55%;
+    position: absolute;
+    top: 70%;
 }
 
 .input-mail
 {
-    position: absolute;}
+    position: absolute;
+    width: 49%;
+    height: 40%;
+    top: 20%;
+    left: 14%;
+}
 
 .validate-button
 {
     border-radius: 5px;
-    color: blue;
+    color: black;
+    position: absolute;
+    width: 9%;
+    height: 44%;
+    top: 23%;
+    left: 65%;
 }
 
 footer 
