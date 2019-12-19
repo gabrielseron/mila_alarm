@@ -158,15 +158,22 @@ header img
 
 .taskroad
 {
-    height: 999px;
+    height: 75%;
     position: absolute;
     left: 44%;
-    top: 1170px;
+    top: 1152px;
+    width: 6%;
 }
 
 .fourthBlock
 {
-    height:20px;
+    height:143px;
+}
+
+.fourthDate
+{
+    position: absolute;
+    bottom: -940px;
 }
 
 /* 3rd */
