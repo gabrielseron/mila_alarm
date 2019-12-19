@@ -151,6 +151,14 @@ header img
     text-align: center;
 }
 
+.taskroad
+{
+    height: 1000px;
+    position: relative;
+    left: 47%;
+    top: 1000px;
+}
+
 
 /* 3rd */
 .thirdPage
@@ -169,7 +177,7 @@ header img
 
 .demo-pic
 {
-    width: 30%;
+    width: 40%;
     
 }
 
@@ -177,15 +185,25 @@ header img
 {
     position: relative;
     left: 1000px;
+    top: -50px;
 }
 
 .demo-pic-2
 {
     position: relative;
-    top: -100px;
-    left: 300px;
+    top: -300px;
+    left: 100px;
 }
 
+.caracteristics-tab
+{
+    list-style: inside;
+}
+
+.caracteristics-tab .li
+{
+    margin: 0 0 15px 0;
+}
 /* 4th */ 
 
 .fourthPage
