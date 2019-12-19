@@ -1,4 +1,6 @@
-body
+
+
+body 
 {
     margin: 0;
     padding: 0; 
@@ -11,6 +13,7 @@ header
     width: 100%;
     height: 54px;
     background: black;
+    font-weight: bold
 }
 
 header img 
@@ -19,7 +22,29 @@ header img
     height: 40px;
     display: flex;
     top: calc(50% - 20px);
-    left: calc(8.1% - 20px);
+    left: calc(23% - 20px);
+}
+
+header a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    margin-left: 70%;
+    position: absolute;
+    top: 33%;
+    
+}
+
+header h1
+{
+    color: white;
+    font-size: 100%;
+    margin-left: 80%;
+    margin-bottom: 50%;
+    position: absolute;
+    top: 13%;
+    cursor: pointer;
 }
 /* Homepage */
 
@@ -265,6 +290,24 @@ header img
     font-family: 'Montserrat', sans-serif;
 }
 
+.preorder-div
+{
+    background: red;
+    height: 100px;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.input-mail
+{
+    position: absolute;}
+
+.validate-button
+{
+    border-radius: 5px;
+    color: blue;
+}
+
 footer 
 {
     width: 100%;
@@ -275,19 +318,4 @@ footer
     font-size: 15px;
 }
 
-.color-box-div img
-{
-    width: 50%;
-    height: 100%;
-    border: solid black;
-}
-.color-box-div
-{
-    display: flex;
-}
-
-.color-box 
-{
-    flex-direction: row;
-}
 
