@@ -187,6 +187,7 @@ header img
 {
     background: #EFEFEF;
     position: relative;
+    padding: 42px;
 }
 
 .fourthPage h1
@@ -228,6 +229,6 @@ header img
 footer 
 {
     width: 100%;
-    height: 200px;
+    height: 50px;
     background : black;
 }
