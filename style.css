@@ -150,7 +150,7 @@ header img
     height: 100px;
     background: white;
     border: solid 2px rgb(77, 76, 76);
-    margin-left: 54%;
+    margin-left: 60%;
     text-align: center;
     position: absolute;
     margin-top: -175px;
@@ -158,11 +158,11 @@ header img
 
 .taskroad
 {
-    height: 75%;
+    height: 77%;
     position: absolute;
-    left: 44%;
-    top: 1152px;
-    width: 6%;
+    left: 48%;
+    top: 1102px;
+    width: 7%;
 }
 
 .fourthBlock
@@ -173,7 +173,7 @@ header img
 .fourthDate
 {
     position: absolute;
-    bottom: -940px;
+    bottom: -883px;
 }
 
 /* 3rd */
