@@ -135,12 +135,13 @@ header img
 {   
     border: solid 2px rgb(77, 76, 76);
     margin-left: 25%;
-    margin-top: 5%;
+    margin-top: 1%;
     width: 300px;
     height: 195px;
     background: white;
     font-size: 16px;
     text-align: center;
+    
 }
 
 .dateBlock
@@ -162,6 +163,12 @@ header img
     left: 44%;
     top: 1170px;
 }
+
+.fourthBlock
+{
+    height:20px;
+}
+
 /* 3rd */
 .thirdPage
 {
